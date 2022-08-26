@@ -35,7 +35,7 @@ public:
         setNext(next);
         setPrev(prev);
     }
-    int  getData()               { return data; }
+    int  getData()               { return this->data; }
     void setData(int data)      { this->data = data; }
     Node * getNext()            { return next; }
     void setNext(Node * next)   { this->next = next; }
